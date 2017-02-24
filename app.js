@@ -61,6 +61,7 @@ app.use(stormpath.init(app, {
 app.set('stormpathRedirectUrl', '/');
 
 app.use('/', require('./controllers/index')());
+app.use('/add-pin', require('./controllers/add-pin')());
 app.use(function (req, res, next) {
   res.status(404).render('404');
 })

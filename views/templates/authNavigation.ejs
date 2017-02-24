@@ -1,0 +1,17 @@
+<body>
+
+    <nav class="menu">
+        <ul>
+
+            <li class="navItem"><a href='/'>All Pins</a></li>
+            <li class="navItem"><a href='/userPage'>My Pins</a></li>
+            <li class="navItem" id='addPin'><a>Add Pins</a></li>
+            <form name = 'logout' method = 'post'>
+            <li class="navItem"><a onclick="$.post('/logout', function(data) {location.href='/'})">Log Out</a></li>
+          </form>
+
+
+        </ul>
+    </nav>
+
+</body>
