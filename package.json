@@ -1,0 +1,22 @@
+{
+  "name": "pinterest-clone",
+  "version": "1.0.0",
+  "description": "Pinterest Clone for FCC Backend Certification",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReeceLangerock/Pinterest-Clone.git"
+  },
+  "author": "Reece Langerock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReeceLangerock/Pinterest-Clone/issues"
+  },
+  "homepage": "https://github.com/ReeceLangerock/Pinterest-Clone#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
