@@ -6,7 +6,9 @@ var path = require('path');
 var port = process.env.PORT || 3000;
 console.log('before config');
 var stormpath = require('express-stormpath');
+console.log('before stormpath require');
 var mongoLoginHandler = require('./controllers/mongoLoginHandler.js')
+console.log('before mongo handler');
 
 mongoose.connect(`mongodb://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@ds157459.mlab.com:57459/pinterest-clone-srl`);
 var db = mongoose.connection;
