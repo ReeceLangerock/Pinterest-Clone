@@ -32,6 +32,9 @@ app.use(function(err, req, res, next){
 console.log('before stormpath');
 //STORMPATH SETUP
 app.use(stormpath.init(app, {
+  application: {
+    href: process.env.STORMPATH_APPLICATION_HREF
+  },
   postLoginHandler: function (account, req, res, next) {
     // check to see if mongo doc has been made for user
     mongoLoginHandler.handleLogin(account);
