@@ -10,9 +10,9 @@ var apiKey = config.getSTORMPATH_CLIENT_APIKEY_ID();
 var mongoLoginHandler = require('./controllers/mongoLoginHandler.js')
 
 //MONGOOSE CONFIG
-mongoose.connect('mongodb://'+config.getMongoUser()+':'+config.getMongoPass()+'@ds157459.mlab.com:57459/pinterest-clone-srl');
+//mongoose.connect('mongodb://'+config.getMongoUser()+':'+config.getMongoPass()+'@ds157459.mlab.com:57459/pinterest-clone-srl');
 //below mongoose.connect saved for when moving to heroku
-//mongoose.connect(`mongodb://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@ds145669.mlab.com:45669/nightlife`);
+mongoose.connect(`mongodb://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@ds157459.mlab.com:57459/pinterest-clone-srl`);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection eror:'));
 db.once('open', function(){

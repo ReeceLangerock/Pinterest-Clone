@@ -1,5 +1,5 @@
 ## Pinterest Clone App
-https://#.herokuapp.com/
+https://pinterest-clone-srl.herokuapp.com/
 
 ### App Built Using
 
