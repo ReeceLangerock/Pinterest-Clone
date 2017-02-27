@@ -1,0 +1,434 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\snorl\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'shrinkwrap' ]
+2 info using npm@4.0.5
+3 info using node@v6.9.2
+4 info lifecycle pinterest-clone@1.0.0~preshrinkwrap: pinterest-clone@1.0.0
+5 silly lifecycle pinterest-clone@1.0.0~preshrinkwrap: no script for preshrinkwrap, continuing
+6 info lifecycle pinterest-clone@1.0.0~shrinkwrap: pinterest-clone@1.0.0
+7 silly lifecycle pinterest-clone@1.0.0~shrinkwrap: no script for shrinkwrap, continuing
+8 verbose stack Error: Problems were encountered
+8 verbose stack Please correct and try again.
+8 verbose stack extraneous: acorn@4.0.11 C:\Users\snorl\Git\Pinterest-Clone\node_modules\acorn
+8 verbose stack extraneous: acorn-dynamic-import@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\acorn-dynamic-import
+8 verbose stack extraneous: ajv@4.11.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ajv
+8 verbose stack extraneous: ajv-keywords@1.5.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ajv-keywords
+8 verbose stack extraneous: anymatch@1.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\anymatch
+8 verbose stack extraneous: arr-diff@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\arr-diff
+8 verbose stack extraneous: arr-flatten@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\arr-flatten
+8 verbose stack extraneous: array-unique@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\array-unique
+8 verbose stack extraneous: arrify@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\arrify
+8 verbose stack extraneous: asn1.js@4.9.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\asn1.js
+8 verbose stack extraneous: assert@1.4.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\assert
+8 verbose stack extraneous: async-each@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\async-each
+8 verbose stack extraneous: balanced-match@0.4.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\balanced-match
+8 verbose stack extraneous: base64-js@1.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\base64-js
+8 verbose stack extraneous: big.js@3.1.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\big.js
+8 verbose stack extraneous: binary-extensions@1.8.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\binary-extensions
+8 verbose stack extraneous: bluebird@2.10.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\bluebird
+8 verbose stack extraneous: bn.js@4.11.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\bn.js
+8 verbose stack extraneous: body-parser@1.16.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser
+8 verbose stack extraneous: debug@2.6.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser\node_modules\debug
+8 verbose stack extraneous: ms@0.7.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser\node_modules\ms
+8 verbose stack extraneous: qs@6.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser\node_modules\qs
+8 verbose stack extraneous: raw-body@2.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser\node_modules\raw-body
+8 verbose stack extraneous: brace-expansion@1.1.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\brace-expansion
+8 verbose stack extraneous: braces@1.8.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\braces
+8 verbose stack extraneous: brorand@1.0.7 C:\Users\snorl\Git\Pinterest-Clone\node_modules\brorand
+8 verbose stack extraneous: browserify-aes@1.0.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-aes
+8 verbose stack extraneous: browserify-cipher@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-cipher
+8 verbose stack extraneous: browserify-des@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-des
+8 verbose stack extraneous: browserify-rsa@4.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-rsa
+8 verbose stack extraneous: browserify-sign@4.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-sign
+8 verbose stack extraneous: browserify-zlib@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-zlib
+8 verbose stack extraneous: bson@1.0.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\bson
+8 verbose stack extraneous: buffer@4.9.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\buffer
+8 verbose stack extraneous: buffer-shims@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\buffer-shims
+8 verbose stack extraneous: buffer-xor@1.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\buffer-xor
+8 verbose stack extraneous: builtin-modules@1.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\builtin-modules
+8 verbose stack extraneous: builtin-status-codes@3.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\builtin-status-codes
+8 verbose stack extraneous: chokidar@1.6.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\chokidar
+8 verbose stack extraneous: cipher-base@1.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\cipher-base
+8 verbose stack extraneous: co@4.6.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\co
+8 verbose stack extraneous: code-point-at@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\code-point-at
+8 verbose stack extraneous: concat-map@0.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\concat-map
+8 verbose stack extraneous: console-browserify@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\console-browserify
+8 verbose stack extraneous: constants-browserify@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\constants-browserify
+8 verbose stack extraneous: create-ecdh@4.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\create-ecdh
+8 verbose stack extraneous: create-hash@1.1.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\create-hash
+8 verbose stack extraneous: create-hmac@1.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\create-hmac
+8 verbose stack extraneous: crypto-browserify@3.11.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\crypto-browserify
+8 verbose stack extraneous: date-now@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\date-now
+8 verbose stack extraneous: des.js@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\des.js
+8 verbose stack extraneous: desandro-matches-selector@2.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\desandro-matches-selector
+8 verbose stack extraneous: diffie-hellman@5.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\diffie-hellman
+8 verbose stack extraneous: domain-browser@1.1.7 C:\Users\snorl\Git\Pinterest-Clone\node_modules\domain-browser
+8 verbose stack extraneous: ejs@2.5.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ejs
+8 verbose stack extraneous: elliptic@6.3.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\elliptic
+8 verbose stack extraneous: emojis-list@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\emojis-list
+8 verbose stack extraneous: enhanced-resolve@3.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\enhanced-resolve
+8 verbose stack extraneous: errno@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\errno
+8 verbose stack extraneous: error-ex@1.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\error-ex
+8 verbose stack extraneous: es6-promise@3.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\es6-promise
+8 verbose stack extraneous: ev-emitter@1.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ev-emitter
+8 verbose stack extraneous: events@1.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\events
+8 verbose stack extraneous: evp_bytestokey@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\evp_bytestokey
+8 verbose stack extraneous: expand-brackets@0.1.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\expand-brackets
+8 verbose stack extraneous: expand-range@1.8.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\expand-range
+8 verbose stack extraneous: extglob@0.3.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\extglob
+8 verbose stack extraneous: filename-regex@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\filename-regex
+8 verbose stack extraneous: fill-range@2.2.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\fill-range
+8 verbose stack extraneous: find-up@1.1.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\find-up
+8 verbose stack extraneous: fizzy-ui-utils@2.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\fizzy-ui-utils
+8 verbose stack extraneous: for-in@0.1.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\for-in
+8 verbose stack extraneous: for-own@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\for-own
+8 verbose stack extraneous: get-caller-file@1.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\get-caller-file
+8 verbose stack extraneous: get-size@2.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\get-size
+8 verbose stack extraneous: glob-base@0.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\glob-base
+8 verbose stack extraneous: glob-parent@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\glob-parent
+8 verbose stack extraneous: graceful-fs@4.1.11 C:\Users\snorl\Git\Pinterest-Clone\node_modules\graceful-fs
+8 verbose stack extraneous: has-flag@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\has-flag
+8 verbose stack extraneous: hash.js@1.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\hash.js
+8 verbose stack extraneous: hooks-fixed@1.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\hooks-fixed
+8 verbose stack extraneous: hosted-git-info@2.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\hosted-git-info
+8 verbose stack extraneous: https-browserify@0.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\https-browserify
+8 verbose stack extraneous: iconv-lite@0.4.15 C:\Users\snorl\Git\Pinterest-Clone\node_modules\iconv-lite
+8 verbose stack extraneous: ieee754@1.1.8 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ieee754
+8 verbose stack extraneous: indexof@0.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\indexof
+8 verbose stack extraneous: interpret@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\interpret
+8 verbose stack extraneous: invert-kv@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\invert-kv
+8 verbose stack extraneous: is-arrayish@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-arrayish
+8 verbose stack extraneous: is-binary-path@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-binary-path
+8 verbose stack extraneous: is-builtin-module@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-builtin-module
+8 verbose stack extraneous: is-dotfile@1.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-dotfile
+8 verbose stack extraneous: is-equal-shallow@0.1.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-equal-shallow
+8 verbose stack extraneous: is-extendable@0.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-extendable
+8 verbose stack extraneous: is-extglob@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-extglob
+8 verbose stack extraneous: is-fullwidth-code-point@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-fullwidth-code-point
+8 verbose stack extraneous: is-glob@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-glob
+8 verbose stack extraneous: is-number@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-number
+8 verbose stack extraneous: is-posix-bracket@0.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-posix-bracket
+8 verbose stack extraneous: is-primitive@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-primitive
+8 verbose stack extraneous: is-utf8@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-utf8
+8 verbose stack extraneous: isobject@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\isobject
+8 verbose stack extraneous: json-loader@0.5.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\json-loader
+8 verbose stack extraneous: json-stable-stringify@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\json-stable-stringify
+8 verbose stack extraneous: json5@0.5.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\json5
+8 verbose stack extraneous: jsonify@0.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\jsonify
+8 verbose stack extraneous: kareem@1.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\kareem
+8 verbose stack extraneous: lcid@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\lcid
+8 verbose stack extraneous: load-json-file@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\load-json-file
+8 verbose stack extraneous: loader-runner@2.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\loader-runner
+8 verbose stack extraneous: loader-utils@0.2.17 C:\Users\snorl\Git\Pinterest-Clone\node_modules\loader-utils
+8 verbose stack extraneous: masonry-layout@4.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\masonry-layout
+8 verbose stack extraneous: memory-fs@0.4.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\memory-fs
+8 verbose stack extraneous: micromatch@2.3.11 C:\Users\snorl\Git\Pinterest-Clone\node_modules\micromatch
+8 verbose stack extraneous: miller-rabin@4.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\miller-rabin
+8 verbose stack extraneous: minimalistic-assert@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\minimalistic-assert
+8 verbose stack extraneous: minimatch@3.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\minimatch
+8 verbose stack extraneous: mongodb@2.2.24 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mongodb
+8 verbose stack extraneous: mongodb-core@2.1.8 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mongodb-core
+8 verbose stack extraneous: mongoose@4.8.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mongoose
+8 verbose stack extraneous: ms@0.7.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mongoose\node_modules\ms
+8 verbose stack extraneous: mpath@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mpath
+8 verbose stack extraneous: mpromise@0.5.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mpromise
+8 verbose stack extraneous: mquery@2.2.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mquery
+8 verbose stack extraneous: sliced@0.0.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mquery\node_modules\sliced
+8 verbose stack extraneous: muri@1.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\muri
+8 verbose stack extraneous: node-libs-browser@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\node-libs-browser
+8 verbose stack extraneous: normalize-package-data@2.3.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\normalize-package-data
+8 verbose stack extraneous: normalize-path@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\normalize-path
+8 verbose stack extraneous: number-is-nan@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\number-is-nan
+8 verbose stack extraneous: object-assign@4.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\object-assign
+8 verbose stack extraneous: object.omit@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\object.omit
+8 verbose stack extraneous: os-browserify@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\os-browserify
+8 verbose stack extraneous: os-locale@1.4.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\os-locale
+8 verbose stack extraneous: outlayer@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\outlayer
+8 verbose stack extraneous: pako@0.2.9 C:\Users\snorl\Git\Pinterest-Clone\node_modules\pako
+8 verbose stack extraneous: parse-asn1@5.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\parse-asn1
+8 verbose stack extraneous: parse-glob@3.0.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\parse-glob
+8 verbose stack extraneous: parse-json@2.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\parse-json
+8 verbose stack extraneous: path-browserify@0.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\path-browserify
+8 verbose stack extraneous: path-exists@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\path-exists
+8 verbose stack extraneous: path-is-absolute@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\path-is-absolute
+8 verbose stack extraneous: path-type@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\path-type
+8 verbose stack extraneous: pbkdf2@3.0.9 C:\Users\snorl\Git\Pinterest-Clone\node_modules\pbkdf2
+8 verbose stack extraneous: pify@2.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\pify
+8 verbose stack extraneous: preserve@0.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\preserve
+8 verbose stack extraneous: process@0.11.9 C:\Users\snorl\Git\Pinterest-Clone\node_modules\process
+8 verbose stack extraneous: prr@0.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\prr
+8 verbose stack extraneous: public-encrypt@4.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\public-encrypt
+8 verbose stack extraneous: querystring@0.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\querystring
+8 verbose stack extraneous: querystring-es3@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\querystring-es3
+8 verbose stack extraneous: randomatic@1.1.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\randomatic
+8 verbose stack extraneous: randombytes@2.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\randombytes
+8 verbose stack extraneous: read-pkg@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\read-pkg
+8 verbose stack extraneous: read-pkg-up@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\read-pkg-up
+8 verbose stack extraneous: readable-stream@2.1.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\readable-stream
+8 verbose stack extraneous: readdirp@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\readdirp
+8 verbose stack extraneous: regex-cache@0.4.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\regex-cache
+8 verbose stack extraneous: regexp-clone@0.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\regexp-clone
+8 verbose stack extraneous: repeat-element@1.1.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\repeat-element
+8 verbose stack extraneous: require_optional@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\require_optional
+8 verbose stack extraneous: require-directory@2.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\require-directory
+8 verbose stack extraneous: require-main-filename@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\require-main-filename
+8 verbose stack extraneous: resolve-from@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\resolve-from
+8 verbose stack extraneous: ripemd160@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ripemd160
+8 verbose stack extraneous: semver@5.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\semver
+8 verbose stack extraneous: set-blocking@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\set-blocking
+8 verbose stack extraneous: set-immediate-shim@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\set-immediate-shim
+8 verbose stack extraneous: setimmediate@1.0.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\setimmediate
+8 verbose stack extraneous: sha.js@2.4.8 C:\Users\snorl\Git\Pinterest-Clone\node_modules\sha.js
+8 verbose stack extraneous: sliced@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\sliced
+8 verbose stack extraneous: source-list-map@0.1.8 C:\Users\snorl\Git\Pinterest-Clone\node_modules\source-list-map
+8 verbose stack extraneous: spdx-correct@1.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\spdx-correct
+8 verbose stack extraneous: spdx-expression-parse@1.0.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\spdx-expression-parse
+8 verbose stack extraneous: spdx-license-ids@1.2.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\spdx-license-ids
+8 verbose stack extraneous: stream-browserify@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\stream-browserify
+8 verbose stack extraneous: stream-http@2.6.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\stream-http
+8 verbose stack extraneous: string-width@1.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\string-width
+8 verbose stack extraneous: strip-bom@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\strip-bom
+8 verbose stack extraneous: supports-color@3.2.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\supports-color
+8 verbose stack extraneous: tapable@0.2.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\tapable
+8 verbose stack extraneous: timers-browserify@2.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\timers-browserify
+8 verbose stack extraneous: to-arraybuffer@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\to-arraybuffer
+8 verbose stack extraneous: tty-browserify@0.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\tty-browserify
+8 verbose stack extraneous: url@0.11.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\url
+8 verbose stack extraneous: punycode@1.3.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\url\node_modules\punycode
+8 verbose stack extraneous: util@0.10.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\util
+8 verbose stack extraneous: inherits@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\util\node_modules\inherits
+8 verbose stack extraneous: validate-npm-package-license@3.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\validate-npm-package-license
+8 verbose stack extraneous: vm-browserify@0.0.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\vm-browserify
+8 verbose stack extraneous: watchpack@1.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\watchpack
+8 verbose stack extraneous: webpack@2.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\webpack
+8 verbose stack extraneous: webpack-sources@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\webpack-sources
+8 verbose stack extraneous: which-module@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\which-module
+8 verbose stack extraneous: wrap-ansi@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\wrap-ansi
+8 verbose stack extraneous: y18n@3.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\y18n
+8 verbose stack extraneous: yargs@6.6.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs
+8 verbose stack extraneous: camelcase@3.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs\node_modules\camelcase
+8 verbose stack extraneous: cliui@3.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs\node_modules\cliui
+8 verbose stack extraneous: yargs-parser@4.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs-parser
+8 verbose stack extraneous: camelcase@3.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs-parser\node_modules\camelcase
+8 verbose stack     at shrinkwrap_ (C:\Users\snorl\AppData\Roaming\npm\node_modules\npm\lib\shrinkwrap.js:128:15)
+8 verbose stack     at Array.<anonymous> (C:\Users\snorl\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+8 verbose stack     at LOOP (C:\Users\snorl\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+8 verbose stack     at C:\Users\snorl\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+8 verbose stack     at done (C:\Users\snorl\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:132:5)
+8 verbose stack     at LOOP (C:\Users\snorl\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+8 verbose stack     at C:\Users\snorl\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+8 verbose stack     at C:\Users\snorl\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:318:20
+8 verbose stack     at C:\Users\snorl\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:284:29
+8 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+9 verbose cwd C:\Users\snorl\Git\Pinterest-Clone
+10 error Windows_NT 10.0.14393
+11 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\snorl\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "shrinkwrap"
+12 error node v6.9.2
+13 error npm  v4.0.5
+14 error Problems were encountered
+14 error Please correct and try again.
+14 error extraneous: acorn@4.0.11 C:\Users\snorl\Git\Pinterest-Clone\node_modules\acorn
+14 error extraneous: acorn-dynamic-import@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\acorn-dynamic-import
+14 error extraneous: ajv@4.11.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ajv
+14 error extraneous: ajv-keywords@1.5.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ajv-keywords
+14 error extraneous: anymatch@1.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\anymatch
+14 error extraneous: arr-diff@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\arr-diff
+14 error extraneous: arr-flatten@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\arr-flatten
+14 error extraneous: array-unique@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\array-unique
+14 error extraneous: arrify@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\arrify
+14 error extraneous: asn1.js@4.9.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\asn1.js
+14 error extraneous: assert@1.4.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\assert
+14 error extraneous: async-each@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\async-each
+14 error extraneous: balanced-match@0.4.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\balanced-match
+14 error extraneous: base64-js@1.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\base64-js
+14 error extraneous: big.js@3.1.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\big.js
+14 error extraneous: binary-extensions@1.8.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\binary-extensions
+14 error extraneous: bluebird@2.10.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\bluebird
+14 error extraneous: bn.js@4.11.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\bn.js
+14 error extraneous: body-parser@1.16.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser
+14 error extraneous: debug@2.6.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser\node_modules\debug
+14 error extraneous: ms@0.7.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser\node_modules\ms
+14 error extraneous: qs@6.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser\node_modules\qs
+14 error extraneous: raw-body@2.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\body-parser\node_modules\raw-body
+14 error extraneous: brace-expansion@1.1.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\brace-expansion
+14 error extraneous: braces@1.8.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\braces
+14 error extraneous: brorand@1.0.7 C:\Users\snorl\Git\Pinterest-Clone\node_modules\brorand
+14 error extraneous: browserify-aes@1.0.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-aes
+14 error extraneous: browserify-cipher@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-cipher
+14 error extraneous: browserify-des@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-des
+14 error extraneous: browserify-rsa@4.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-rsa
+14 error extraneous: browserify-sign@4.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-sign
+14 error extraneous: browserify-zlib@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\browserify-zlib
+14 error extraneous: bson@1.0.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\bson
+14 error extraneous: buffer@4.9.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\buffer
+14 error extraneous: buffer-shims@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\buffer-shims
+14 error extraneous: buffer-xor@1.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\buffer-xor
+14 error extraneous: builtin-modules@1.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\builtin-modules
+14 error extraneous: builtin-status-codes@3.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\builtin-status-codes
+14 error extraneous: chokidar@1.6.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\chokidar
+14 error extraneous: cipher-base@1.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\cipher-base
+14 error extraneous: co@4.6.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\co
+14 error extraneous: code-point-at@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\code-point-at
+14 error extraneous: concat-map@0.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\concat-map
+14 error extraneous: console-browserify@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\console-browserify
+14 error extraneous: constants-browserify@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\constants-browserify
+14 error extraneous: create-ecdh@4.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\create-ecdh
+14 error extraneous: create-hash@1.1.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\create-hash
+14 error extraneous: create-hmac@1.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\create-hmac
+14 error extraneous: crypto-browserify@3.11.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\crypto-browserify
+14 error extraneous: date-now@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\date-now
+14 error extraneous: des.js@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\des.js
+14 error extraneous: desandro-matches-selector@2.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\desandro-matches-selector
+14 error extraneous: diffie-hellman@5.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\diffie-hellman
+14 error extraneous: domain-browser@1.1.7 C:\Users\snorl\Git\Pinterest-Clone\node_modules\domain-browser
+14 error extraneous: ejs@2.5.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ejs
+14 error extraneous: elliptic@6.3.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\elliptic
+14 error extraneous: emojis-list@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\emojis-list
+14 error extraneous: enhanced-resolve@3.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\enhanced-resolve
+14 error extraneous: errno@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\errno
+14 error extraneous: error-ex@1.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\error-ex
+14 error extraneous: es6-promise@3.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\es6-promise
+14 error extraneous: ev-emitter@1.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ev-emitter
+14 error extraneous: events@1.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\events
+14 error extraneous: evp_bytestokey@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\evp_bytestokey
+14 error extraneous: expand-brackets@0.1.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\expand-brackets
+14 error extraneous: expand-range@1.8.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\expand-range
+14 error extraneous: extglob@0.3.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\extglob
+14 error extraneous: filename-regex@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\filename-regex
+14 error extraneous: fill-range@2.2.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\fill-range
+14 error extraneous: find-up@1.1.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\find-up
+14 error extraneous: fizzy-ui-utils@2.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\fizzy-ui-utils
+14 error extraneous: for-in@0.1.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\for-in
+14 error extraneous: for-own@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\for-own
+14 error extraneous: get-caller-file@1.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\get-caller-file
+14 error extraneous: get-size@2.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\get-size
+14 error extraneous: glob-base@0.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\glob-base
+14 error extraneous: glob-parent@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\glob-parent
+14 error extraneous: graceful-fs@4.1.11 C:\Users\snorl\Git\Pinterest-Clone\node_modules\graceful-fs
+14 error extraneous: has-flag@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\has-flag
+14 error extraneous: hash.js@1.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\hash.js
+14 error extraneous: hooks-fixed@1.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\hooks-fixed
+14 error extraneous: hosted-git-info@2.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\hosted-git-info
+14 error extraneous: https-browserify@0.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\https-browserify
+14 error extraneous: iconv-lite@0.4.15 C:\Users\snorl\Git\Pinterest-Clone\node_modules\iconv-lite
+14 error extraneous: ieee754@1.1.8 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ieee754
+14 error extraneous: indexof@0.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\indexof
+14 error extraneous: interpret@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\interpret
+14 error extraneous: invert-kv@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\invert-kv
+14 error extraneous: is-arrayish@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-arrayish
+14 error extraneous: is-binary-path@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-binary-path
+14 error extraneous: is-builtin-module@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-builtin-module
+14 error extraneous: is-dotfile@1.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-dotfile
+14 error extraneous: is-equal-shallow@0.1.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-equal-shallow
+14 error extraneous: is-extendable@0.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-extendable
+14 error extraneous: is-extglob@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-extglob
+14 error extraneous: is-fullwidth-code-point@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-fullwidth-code-point
+14 error extraneous: is-glob@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-glob
+14 error extraneous: is-number@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-number
+14 error extraneous: is-posix-bracket@0.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-posix-bracket
+14 error extraneous: is-primitive@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-primitive
+14 error extraneous: is-utf8@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\is-utf8
+14 error extraneous: isobject@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\isobject
+14 error extraneous: json-loader@0.5.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\json-loader
+14 error extraneous: json-stable-stringify@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\json-stable-stringify
+14 error extraneous: json5@0.5.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\json5
+14 error extraneous: jsonify@0.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\jsonify
+14 error extraneous: kareem@1.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\kareem
+14 error extraneous: lcid@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\lcid
+14 error extraneous: load-json-file@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\load-json-file
+14 error extraneous: loader-runner@2.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\loader-runner
+14 error extraneous: loader-utils@0.2.17 C:\Users\snorl\Git\Pinterest-Clone\node_modules\loader-utils
+14 error extraneous: masonry-layout@4.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\masonry-layout
+14 error extraneous: memory-fs@0.4.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\memory-fs
+14 error extraneous: micromatch@2.3.11 C:\Users\snorl\Git\Pinterest-Clone\node_modules\micromatch
+14 error extraneous: miller-rabin@4.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\miller-rabin
+14 error extraneous: minimalistic-assert@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\minimalistic-assert
+14 error extraneous: minimatch@3.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\minimatch
+14 error extraneous: mongodb@2.2.24 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mongodb
+14 error extraneous: mongodb-core@2.1.8 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mongodb-core
+14 error extraneous: mongoose@4.8.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mongoose
+14 error extraneous: ms@0.7.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mongoose\node_modules\ms
+14 error extraneous: mpath@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mpath
+14 error extraneous: mpromise@0.5.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mpromise
+14 error extraneous: mquery@2.2.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mquery
+14 error extraneous: sliced@0.0.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\mquery\node_modules\sliced
+14 error extraneous: muri@1.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\muri
+14 error extraneous: node-libs-browser@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\node-libs-browser
+14 error extraneous: normalize-package-data@2.3.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\normalize-package-data
+14 error extraneous: normalize-path@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\normalize-path
+14 error extraneous: number-is-nan@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\number-is-nan
+14 error extraneous: object-assign@4.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\object-assign
+14 error extraneous: object.omit@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\object.omit
+14 error extraneous: os-browserify@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\os-browserify
+14 error extraneous: os-locale@1.4.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\os-locale
+14 error extraneous: outlayer@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\outlayer
+14 error extraneous: pako@0.2.9 C:\Users\snorl\Git\Pinterest-Clone\node_modules\pako
+14 error extraneous: parse-asn1@5.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\parse-asn1
+14 error extraneous: parse-glob@3.0.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\parse-glob
+14 error extraneous: parse-json@2.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\parse-json
+14 error extraneous: path-browserify@0.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\path-browserify
+14 error extraneous: path-exists@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\path-exists
+14 error extraneous: path-is-absolute@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\path-is-absolute
+14 error extraneous: path-type@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\path-type
+14 error extraneous: pbkdf2@3.0.9 C:\Users\snorl\Git\Pinterest-Clone\node_modules\pbkdf2
+14 error extraneous: pify@2.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\pify
+14 error extraneous: preserve@0.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\preserve
+14 error extraneous: process@0.11.9 C:\Users\snorl\Git\Pinterest-Clone\node_modules\process
+14 error extraneous: prr@0.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\prr
+14 error extraneous: public-encrypt@4.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\public-encrypt
+14 error extraneous: querystring@0.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\querystring
+14 error extraneous: querystring-es3@0.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\querystring-es3
+14 error extraneous: randomatic@1.1.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\randomatic
+14 error extraneous: randombytes@2.0.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\randombytes
+14 error extraneous: read-pkg@1.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\read-pkg
+14 error extraneous: read-pkg-up@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\read-pkg-up
+14 error extraneous: readable-stream@2.1.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\readable-stream
+14 error extraneous: readdirp@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\readdirp
+14 error extraneous: regex-cache@0.4.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\regex-cache
+14 error extraneous: regexp-clone@0.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\regexp-clone
+14 error extraneous: repeat-element@1.1.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\repeat-element
+14 error extraneous: require_optional@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\require_optional
+14 error extraneous: require-directory@2.1.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\require-directory
+14 error extraneous: require-main-filename@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\require-main-filename
+14 error extraneous: resolve-from@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\resolve-from
+14 error extraneous: ripemd160@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\ripemd160
+14 error extraneous: semver@5.3.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\semver
+14 error extraneous: set-blocking@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\set-blocking
+14 error extraneous: set-immediate-shim@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\set-immediate-shim
+14 error extraneous: setimmediate@1.0.5 C:\Users\snorl\Git\Pinterest-Clone\node_modules\setimmediate
+14 error extraneous: sha.js@2.4.8 C:\Users\snorl\Git\Pinterest-Clone\node_modules\sha.js
+14 error extraneous: sliced@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\sliced
+14 error extraneous: source-list-map@0.1.8 C:\Users\snorl\Git\Pinterest-Clone\node_modules\source-list-map
+14 error extraneous: spdx-correct@1.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\spdx-correct
+14 error extraneous: spdx-expression-parse@1.0.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\spdx-expression-parse
+14 error extraneous: spdx-license-ids@1.2.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\spdx-license-ids
+14 error extraneous: stream-browserify@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\stream-browserify
+14 error extraneous: stream-http@2.6.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\stream-http
+14 error extraneous: string-width@1.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\string-width
+14 error extraneous: strip-bom@2.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\strip-bom
+14 error extraneous: supports-color@3.2.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\supports-color
+14 error extraneous: tapable@0.2.6 C:\Users\snorl\Git\Pinterest-Clone\node_modules\tapable
+14 error extraneous: timers-browserify@2.0.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\timers-browserify
+14 error extraneous: to-arraybuffer@1.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\to-arraybuffer
+14 error extraneous: tty-browserify@0.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\tty-browserify
+14 error extraneous: url@0.11.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\url
+14 error extraneous: punycode@1.3.2 C:\Users\snorl\Git\Pinterest-Clone\node_modules\url\node_modules\punycode
+14 error extraneous: util@0.10.3 C:\Users\snorl\Git\Pinterest-Clone\node_modules\util
+14 error extraneous: inherits@2.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\util\node_modules\inherits
+14 error extraneous: validate-npm-package-license@3.0.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\validate-npm-package-license
+14 error extraneous: vm-browserify@0.0.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\vm-browserify
+14 error extraneous: watchpack@1.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\watchpack
+14 error extraneous: webpack@2.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\webpack
+14 error extraneous: webpack-sources@0.1.4 C:\Users\snorl\Git\Pinterest-Clone\node_modules\webpack-sources
+14 error extraneous: which-module@1.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\which-module
+14 error extraneous: wrap-ansi@2.1.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\wrap-ansi
+14 error extraneous: y18n@3.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\y18n
+14 error extraneous: yargs@6.6.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs
+14 error extraneous: camelcase@3.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs\node_modules\camelcase
+14 error extraneous: cliui@3.2.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs\node_modules\cliui
+14 error extraneous: yargs-parser@4.2.1 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs-parser
+14 error extraneous: camelcase@3.0.0 C:\Users\snorl\Git\Pinterest-Clone\node_modules\yargs-parser\node_modules\camelcase
+15 error If you need help, you may report this error at:
+15 error     <https://github.com/npm/npm/issues>
+16 verbose exit [ 1, true ]
