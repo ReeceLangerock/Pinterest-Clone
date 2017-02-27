@@ -7,16 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
-        var authenticatedUser = <%= authenticatedUser %>
-        if (authenticatedUser) {
-            $.get("./templates/authNavigation.ejs", function(data) {
-                $("#menu-placeholder").replaceWith(data);
-            });
-        } else {
-            $.get("./templates/navigation.ejs", function(data) {
-                $("#menu-placeholder").replaceWith(data);
-            });
-        }
+
         $.get("./templates/footer.html", function(data) {
             $("#footer-placeholder").replaceWith(data);
         });
@@ -31,8 +22,11 @@
 
 
 <body>
-  <div class = 'container'>
-<div id="menu-placeholder"></div>
+  <% if (authenticatedUser) { %>
+    <%- include authNavigation.ejs %>
+  <%  } else { %>
+<%- include navigation.ejs %>
+    <%  }
 <main>
   <div class = 'gridContainer'>
   <div class="grid" data-masonry='{ "itemSelector": ".grid-item" columnwidth: "300" }'>
@@ -73,7 +67,7 @@
 </div>
 </body>
 
-<div id = "footer-placeholder"></div>
+<%- include footer.ejs %>
 <script>$("#user").attr("href", "/user/<%=userID %>")</script>
 <script class = 'modal-input' type="text/javascript" src="/javascript-files/modal.js"></script>
 <script class = 'modal-input' type="text/javascript" src="/javascript-files/togglePin.js"></script>
