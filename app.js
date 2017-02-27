@@ -1,5 +1,4 @@
 //SETUP
-var stormpath = require('express-stormpath');
 var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
