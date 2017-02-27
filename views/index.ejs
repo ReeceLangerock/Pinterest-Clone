@@ -23,10 +23,10 @@
 
 <body>
   <% if (authenticatedUser) { %>
-    <%- include authNavigation.ejs %>
+    <%- include ./partials/authNavigation.ejs %>
   <%  } else { %>
-<%- include navigation.ejs %>
-    <%  }
+<%- include ./partials/navigation.ejs %>
+    <%  } %>
 <main>
   <div class = 'gridContainer'>
   <div class="grid" data-masonry='{ "itemSelector": ".grid-item" columnwidth: "300" }'>
@@ -67,7 +67,7 @@
 </div>
 </body>
 
-<%- include footer.ejs %>
+<%- include ./partials/footer.ejs %>
 <script>$("#user").attr("href", "/user/<%=userID %>")</script>
 <script class = 'modal-input' type="text/javascript" src="/javascript-files/modal.js"></script>
 <script class = 'modal-input' type="text/javascript" src="/javascript-files/togglePin.js"></script>
