@@ -17,7 +17,6 @@
         "url": "https://github.com/ReeceLangerock/Pinterest-Clone/issues"
     },
     "homepage": "https://github.com/ReeceLangerock/Pinterest-Clone#readme",
-    "devDependencies": {},
     "dependencies": {
         "express": "^4.9.5",
         "express-stormpath": "^3.2.0"
