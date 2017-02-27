@@ -30,7 +30,11 @@
 
 <body>
   <div class = 'container'>
-    <div id="menu-placeholder"></div>
+    <% if (authenticatedUser) { %>
+      <%- include ./partials/authNavigation.ejs %>
+      <%  } else { %>
+        <%- include ./partials/navigation.ejs %>
+        <%  } %>
     <main>
         <div class='gridContainer'>
             <div class="grid" data-masonry='{ "itemSelector": ".grid-item" columnwidth: "300"}'>
@@ -67,7 +71,7 @@
 </main>
 </div>
 </body>
-<div id="footer-placeholder"></div>
+<%- include ./partials/footer.ejs %>
 <script>
     $("#user").attr("href", "/user/<%=userID %>")
 </script>
