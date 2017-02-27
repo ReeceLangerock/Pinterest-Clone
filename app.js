@@ -1,14 +1,15 @@
 //SETUP
+var stormpath = require('express-stormpath');
 var express = require('express');
+var app = express();
 var mongoose = require('mongoose');
 var path = require('path');
 var port = process.env.PORT || 3000;
 console.log('before config');
-var stormpath = require('express-stormpath');
+
 console.log('before stormpath require');
 var mongoLoginHandler = require('./controllers/mongoLoginHandler.js')
 console.log('before mongo handler');
-var app = express();
 
 mongoose.connect(`mongodb://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@ds157459.mlab.com:57459/pinterest-clone-srl`);
 var db = mongoose.connection;
@@ -32,9 +33,6 @@ app.use(function(err, req, res, next){
 console.log('before stormpath');
 //STORMPATH SETUP
 app.use(stormpath.init(app, {
-  application: {
-    href: process.env.STORMPATH_APPLICATION_HREF
-  },
   postLoginHandler: function (account, req, res, next) {
     // check to see if mongo doc has been made for user
     mongoLoginHandler.handleLogin(account);
