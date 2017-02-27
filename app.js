@@ -4,7 +4,6 @@ var app = express();
 var mongoose = require('mongoose');
 var path = require('path');
 var port = process.env.PORT || 3000;
-//var config = require('./config');
 var stormpath = require('express-stormpath');
 var mongoLoginHandler = require('./controllers/mongoLoginHandler.js')
 
