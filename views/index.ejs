@@ -20,25 +20,39 @@
         $.get("./templates/footer.html", function(data) {
             $("#footer-placeholder").replaceWith(data);
         });
+
     </script>
     <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
 
 </head>
 
 <html>
-<div id="menu-placeholder"></div>
+
 
 <body>
+  <div class = 'container'>
+<div id="menu-placeholder"></div>
+<main>
   <div class = 'gridContainer'>
-  <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
-    <div class="grid-item"><img src ='https://s-media-cache-ak0.pinimg.com/236x/7c/32/b7/7c32b7c60e04b528ffe8dd7f074527d7.jpg'>Grid1</div>
-    <div class="grid-item">Grid2</div>
-    <div class="grid-item">Grid3</div>
-    <div class="grid-item">Grid4</div>
+  <div class="grid" data-masonry='{ "itemSelector": ".grid-item" columnwidth: "300" }'>
+    <div class = "grid-sizer"></div>
+    <% for(let i =0; i < pins.length; i ++) { %>
+    <div class="grid-item">
+        <img src = <%=pins[i].pinUrl %> onerror="imgError(this);">
+        <h3><%=pins[i].pinTitle %></h3>
+        <p><%=pins[i].pinDescription %></p>
+        <span class = "pinInfo">
+
+        <a href ="/user/<%=pins[i].pinOwnerID %>"><%=pins[i].pinOwner %></a>
+        <button onclick = togglePin("<%-pins[i]['_id']%>")>&#10084;<%=pins[i].pinnedBy.length %></button></span>
+</div>
+
+  <% } %>
 
   </div>
-
 </div>
+
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -47,18 +61,22 @@
   <div class="modal-content">
     <form action = "/add-pin" method = "post">
     <span class="close">&times;</span>
-    <input type="text" placeholder="image url" name = "image_url" required><br>
-    <input type="text" placeholder="image title" name = "image_title" required><br>
-    <input type="text" placeholder="image description" name = "image_description"><br><br>
+    <input class = 'modal-input' type="text" placeholder="image url" name = "image_url" required><br>
+    <input class = 'modal-input' type="text" placeholder="image title" name = "image_title" required><br>
+    <input class = 'modal-input' type="text" placeholder="image description" name = "image_description"><br><br>
     <input type = "submit" value = "Submit">
   </form>
-    <p>Some text in the Modal..</p>
+
   </div>
-
 </div>
-
-<script type="text/javascript" src="/javascript-files/modal.js"></script>
+</main>
+</div>
 </body>
 
+<div id = "footer-placeholder"></div>
+<script>$("#user").attr("href", "/user/<%=userID %>")</script>
+<script class = 'modal-input' type="text/javascript" src="/javascript-files/modal.js"></script>
+<script class = 'modal-input' type="text/javascript" src="/javascript-files/togglePin.js"></script>
+<script class = 'modal-input' type="text/javascript" src="/javascript-files/masonryImageLoader.js"></script>
 
 </html>

@@ -2,24 +2,43 @@
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
 input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 /*CSS Color Template
-https://color.adobe.com/Manifolds-of-Grey-color-theme-9080065/?showPublished=true*/
+https://color.adobe.com/Times-Changing-color-theme-1536595/?showPublished=true*/
+
+body, html{
+  background-color: #ffffff;
+height: 100%;
+}
+
+main{
+  overflow: auto;
+  padding-bottom: 80px;
+}
+
+.container{
+  min-height:100%;
+   position:relative;
+}
+
+
+* { box-sizing: border-box; }
 
 /*---Navigation Bar ---*/
 .menu ul {
     min-height: 50px;
     align-items: center;
     display: flex;
-    background-color: #5a677a;
+    background-color: #6dbcdb;
     justify-content: flex-end;
     list-style: none;
     flex-wrap: wrap;
     margin:0px;
     padding: 0px;
+    border-bottom: 1px solid #2c3e50;
 }
 
 
 .menu a {
-    color: black;
+    color: #2c3e50;
     margin:0px;
     display:block;
     text-decoration: none;
@@ -28,21 +47,94 @@ https://color.adobe.com/Manifolds-of-Grey-color-theme-9080065/?showPublished=tru
     cursor: hand;
 }
 
+.logo {
+  flex:10 0;
+  z-index: 1;
+
+}
+.logo img{
+  max-height: 40px;
+}
+
 .navItem {
-    min-width: 75px;
-    margin: 2px 10px 0px 0px;
+    flex:1 0 82px;
+    max-width: 82px;
+    margin: 2px 10px 2px 0px;
     border-radius: 5px;
     text-align: center;
-    background-color: #f6f1ee;
-    border: 2px solid #5a677a;
+    background-color: #ffffff;
+    border: 2px solid #2c3e50;
     font-size: 20px;
 }
 
-.gridContainer{
 
-  margin: auto;
-  width:90%;
+.navItem a:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
 }
+
+
+.gridContainer{
+  padding-top: 20px;
+  margin: auto;
+  max-width:90%;
+}
+
+.grid {
+
+  margin: 0 auto;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 250px;
+}
+
+.grid-item {
+  min-height: 150px;
+  float: left;
+  color: #2c3e50;
+  background-color: #d7dadb;
+  border: 2px solid #2c3e50;
+  border-radius: 1px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.grid-item img{
+
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.grid-item h3,p {
+  padding: 0px;
+  margin: 5px 0px 3px 0px;
+
+}
+
+.pinInfo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 5px;
+  align-items: center;
+  border: 1px solid #ffffff;
+}
+
+.pinInfo a{
+  text-decoration: none;
+}
+
 
 /*ADD PIN MODAL */
 
@@ -65,8 +157,14 @@ https://color.adobe.com/Manifolds-of-Grey-color-theme-9080065/?showPublished=tru
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+    border: 2px solid #2c3e50;
+    width: 50%;
+}
+
+.modal-input {
+  margin:3px;
+  width: 80%;
+  border: 1px solid #2c3e50;
 }
 
 /* The Close Button */
@@ -82,4 +180,51 @@ https://color.adobe.com/Manifolds-of-Grey-color-theme-9080065/?showPublished=tru
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+/*FOOTER STYLING */
+footer {
+    height: 60px;
+    position: relative;
+    margin-top: -60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #2c3e50;
+    background-color: #6dbcdb;
+    font-size: 14px;
+    border-top: 1px solid #2c3e50;
+    overflow: hidden
+}
+
+footer p {
+    padding: 1px;
+    margin: 1px;
+}
+
+footer a {
+    padding: 0px;
+    text-decoration: none;
+    color: #fc4340;
+    margin: 0px;
+}
+
+/*404 STYLING */
+.container404{
+
+  color: #2c3e50;
+  background-color: #6dbcdb;
+  width: 75%;
+  margin: auto;
+  border: 3px solid #2c3e50;
+  border-radius: 8px;
+}
+
+.page404{
+  margin:50px;
+  text-align: center;
+}
+.page404 h1{
+  font-size: 80px;
 }
