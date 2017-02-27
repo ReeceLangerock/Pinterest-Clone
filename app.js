@@ -5,11 +5,8 @@ var stormpath = require('express-stormpath');
 var mongoose = require('mongoose');
 var path = require('path');
 var port = process.env.PORT || 3000;
-console.log('before config');
 var app = express();
-console.log('before stormpath require');
 var mongoLoginHandler = require('./controllers/mongoLoginHandler.js')
-console.log('before mongo handler');
 
 mongoose.connect(`mongodb://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@ds157459.mlab.com:57459/pinterest-clone-srl`);
 var db = mongoose.connection;
@@ -18,7 +15,6 @@ db.once('open', function(){
   console.log("connected");
 })
 
-console.log('before express');
 //EXPRESS SETUP
 app.set('views', path.join(__dirname, '/views'));
 app.use(express.static(path.join(__dirname, 'views')));
@@ -30,10 +26,22 @@ app.use(function(err, req, res, next){
   return;
 })
 
-console.log('before stormpath');
 //STORMPATH SETUP
-
 app.use(stormpath.init(app, {
+  enableFacebook: true,
+  social: {
+    facebook: {
+      appId: process.env.facebookAppId,
+      appSecret: process.env.facebookAppSecret,
+    },
+  },
+  enableGoogle: true,
+  social: {
+    google: {
+      clientId: process.env.googleClientId,
+      clientSecret: process.env.googleClientSecret,
+    },
+  },
   postLoginHandler: function (account, req, res, next) {
     // check to see if mongo doc has been made for user
     mongoLoginHandler.handleLogin(account);
@@ -43,7 +51,6 @@ app.use(stormpath.init(app, {
 }));
 app.set('stormpathRedirectUrl', '/');
 
-console.log('before routes');
 //ROUTES
 app.use('/', require('./controllers/index')());
 app.use('/add-pin', require('./controllers/add-pin')());
@@ -52,7 +59,6 @@ app.use(function (req, res, next) {
   res.status(404).render('404');
 })
 
-console.log('before launch');
 //launch
 app.on('stormpath.ready', function(){
 app.listen(port, function(){
