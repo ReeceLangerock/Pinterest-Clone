@@ -1,11 +1,12 @@
 //SETUP
 var express = require('express');
-var app = express();
+var stormpath = require('express-stormpath');
+
 var mongoose = require('mongoose');
 var path = require('path');
 var port = process.env.PORT || 3000;
 console.log('before config');
-
+var app = express();
 console.log('before stormpath require');
 var mongoLoginHandler = require('./controllers/mongoLoginHandler.js')
 console.log('before mongo handler');
@@ -31,14 +32,7 @@ app.use(function(err, req, res, next){
 
 console.log('before stormpath');
 //STORMPATH SETUP
-var stormpath = require('express-stormpath');
-var Config = require('express-stormpath-config');
 
-var config = new Config({
-  application: {
-    name: 'My Stormpath Application'
-  }
-});
 app.use(stormpath.init(app, {
   postLoginHandler: function (account, req, res, next) {
     // check to see if mongo doc has been made for user
