@@ -38,10 +38,10 @@
                                                 <span class="pinInfo">
 
                                                 <a href ="/user/<%=pins[i].pinOwnerID %>"><%=pins[i].pinOwner %></a>
-                                                <% if(userID !== false) { %>
-                                                <% var pinStatus = (pins[i].pinnedBy.includes(userID))  ? "pinned" : "not-pinned"; %>
+                                                <% if(userID != false) { %>
+                                                <% var pinStatus = (pins[i].pinnedBy.includes(userID)) ? "pinned" : "not-pinned"; %>
                                                 <% } %>
-                                                <button onclick = togglePin("<%-pins[i]['_id']%>")><div class = "<% pinStatus %>">&#10084;</div><%=pins[i].pinnedBy.length %></button></span>
+                                                <button onclick = togglePin("<%-pins[i]['_id']%>")><span class = "<% pinStatus %>">&#10084;</span><%=pins[i].pinnedBy.length %></button></span>
 
                                             </div>
 
