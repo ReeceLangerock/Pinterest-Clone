@@ -16,66 +16,62 @@
 
 
 <body>
-    <div class='container'>
-        <!--import navbar -->
-        <% if (authenticatedUser) { %>
-            <%- include ./partials/authNavigation.ejs %>
-                <%  } else { %>
-                    <%- include ./partials/navigation.ejs %>
-                        <%  } %>
-                            <main>
-                                <!--masonry grid -->
-                                <div class='gridContainer'>
-                                    <div class="grid" data-masonry='{ "itemSelector": ".grid-item" columnwidth: "300" }'>
-                                        <div class="grid-sizer"></div>
-                                        <% for(let i =0; i < pins.length; i ++) { %>
-                                            <div class="grid-item">
-                                                <img src=< %=pins[i].pinUrl %> onerror="imgError(this);">
-                                                <h3><%=pins[i].pinTitle %></h3>
-                                                <p>
-                                                    <%=pins[i].pinDescription %>
-                                                </p>
-                                                <span class="pinInfo">
+  <div class = 'container'>
+    <!--import navbar -->
+  <% if (authenticatedUser) { %>
+    <%- include ./partials/authNavigation.ejs %>
+  <%  } else { %>
+      <%- include ./partials/navigation.ejs %>
+  <%  } %>
+<main>
 
-                                                <a href ="/user/<%=pins[i].pinOwnerID %>"><%=pins[i].pinOwner %></a>
-                                                <% (pins[i].pinnedBy.includes(userID)) %>
-                                                <% if(userID != false) { %>
-                                                <% var pinStatus = (pins[i].pinnedBy.includes(userID)) ? "pinned" : "not-pinned"; %>                                                
-                                                <% } %>
-                                                <button onclick = togglePin("<%-pins[i]['_id']%>")><span class = "<% pinStatus %>">&#10084;</span><%=pins[i].pinnedBy.length %></button></span>
+  <div class = 'gridContainer'>
+  <div class="grid" data-masonry='{ "itemSelector": ".grid-item" columnwidth: "300" }'>
+    <div class = "grid-sizer"></div>
+    <% for(let i =0; i < pins.length; i ++) { %>
+    <div class="grid-item">
+        <img src = <%=pins[i].pinUrl %> onerror="imgError(this);">
+        <h3><%=pins[i].pinTitle %></h3>
+        <p><%=pins[i].pinDescription %></p>
+        <span class = "pinInfo">
 
-                                            </div>
+        <a href ="/user/<%=pins[i].pinOwnerID %>"><%=pins[i].pinOwner %></a>
+        <% if(userID != false) { %>
+        <% var pinStatus = (pins[i].pinnedBy.includes(userID)) ? "pinned" : "not-pinned"; %>
+        <% } %>
+        <button onclick = togglePin("<%-pins[i]['_id']%>")><span class = "<% pinStatus %>">&#10084;</span><%=pins[i].pinnedBy.length %></button></span>
+        <button onclick = togglePin("<%-pins[i]['_id']%>")>&#10084;<%=pins[i].pinnedBy.length %></button></span>
+</div>
 
-                                            <% } %>
+  <% } %>
 
-                                    </div>
-                                </div>
+  </div>
+</div>
 
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
 
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                        <form action="/add-pin" method="post">
-                                            <span class="close">&times;</span>
-                                            <input class='modal-input' type="text" placeholder="image url" name="image_url" required><br>
-                                            <input class='modal-input' type="text" placeholder="image title" name="image_title" required><br>
-                                            <input class='modal-input' type="text" placeholder="image description" name="image_description"><br><br>
-                                            <input type="submit" value="Submit">
-                                        </form>
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
-                                    </div>
-                                </div>
-                            </main>
-    </div>
+  <!-- Modal content -->
+  <div class="modal-content">
+    <form action = "/add-pin" method = "post">
+    <span class="close">&times;</span>
+    <input class = 'modal-input' type="text" placeholder="image url" name = "image_url" required><br>
+    <input class = 'modal-input' type="text" placeholder="image title" name = "image_title" required><br>
+    <input class = 'modal-input' type="text" placeholder="image description" name = "image_description"><br><br>
+    <input type = "submit" value = "Submit">
+  </form>
+
+  </div>
+</div>
+</main>
+</div>
 </body>
 <!--import footer -->
 <%- include ./partials/footer.ejs %>
-    <script>
-        $("#user").attr("href", "/user/<%=userID %>")
-    </script>
-    <script class='modal-input' type="text/javascript" src="/javascript-files/modal.js"></script>
-    <script class='modal-input' type="text/javascript" src="/javascript-files/togglePin.js"></script>
-    <script class='modal-input' type="text/javascript" src="/javascript-files/masonryImageLoader.js"></script>
+<script>$("#user").attr("href", "/user/<%=userID %>")</script>
+<script class = 'modal-input' type="text/javascript" src="/javascript-files/modal.js"></script>
+<script class = 'modal-input' type="text/javascript" src="/javascript-files/togglePin.js"></script>
+<script class = 'modal-input' type="text/javascript" src="/javascript-files/masonryImageLoader.js"></script>
 
 </html>
