@@ -39,8 +39,7 @@
         <% if(userID != false) { %>
         <% var pinStatus = (pins[i].pinnedBy.includes(userID)) ? "pinned" : "not-pinned"; %>
         <% } %>
-        <% pinStatus %>
-        <button onclick = togglePin("<%-pins[i]['_id']%>")><span class = "<% pinStatus %>">&#10084;</span><%=pins[i].pinnedBy.length %></button></span>
+        <button onclick = togglePin("<%-pins[i]['_id']%>")><span class = "<%= pinStatus %>">&#10084;</span><%=pins[i].pinnedBy.length %></button></span>
 </div>
 
   <% } %>
