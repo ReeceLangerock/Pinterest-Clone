@@ -210,6 +210,14 @@ footer a {
     margin: 0px;
 }
 
+.pinned {
+  color: #fc4349;
+}
+
+.not-pinned {
+  color: grey;
+}
+
 /*404 STYLING */
 .container404{
 

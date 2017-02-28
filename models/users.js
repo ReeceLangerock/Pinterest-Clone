@@ -6,8 +6,6 @@ var userSchema = mongoose.Schema({
     'userHREF': String,
     'userName': String,
     'pinnedPins': [String]
-
-
 });
 
 userSchema.methods.newUser = function(href, name){

@@ -1,4 +1,5 @@
 function deletePin(pinID) {
+    //open up xmlttprequest and send id of pin to remove to server
     var url = "/user/remove-pin"
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function(){

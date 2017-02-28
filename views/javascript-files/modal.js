@@ -1,7 +1,8 @@
+//modal setup based off https://www.w3schools.com/howto/howto_css_modals.asp
+
 var modal, btn, span;
 
 $(document).ready(function() {
-  console.log('ready');
   modal = document.getElementById('myModal');
 
   // Get the button that opens the modal

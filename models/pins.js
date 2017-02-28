@@ -39,7 +39,7 @@ pinSchema.methods.newPin = function(url, title, description, owner, ownerID) {
           '_id': ownerID
       }, {
           $push: {
-              'pinnedPins': tempID //add newly create poll to the user doc
+              'pinnedPins': tempID //add newly create pin to the user doc
           }
       }, {
           safe: true,

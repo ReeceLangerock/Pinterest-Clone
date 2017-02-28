@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 var returnRouter = function() {
+    //router setup
     var request = require('request');
     var stormpath = require('express-stormpath');
     var bodyParser = require('body-parser');
@@ -13,12 +14,12 @@ var returnRouter = function() {
     router.use(bodyParser.json());
 
     router.get('/', stormpath.getUser, function(req, res) {
-
+        //get 75 most recent pins
         getPins().then(function(response, error) {
             var pins = response;
             if (req.user) {
+                // if user is signed in, get their userID and pass it to page
                 getUserID(req.user.href).then(function(response, error) {
-
                     res.render('index', {
                         pins: pins,
                         authenticatedUser: true,
@@ -39,24 +40,27 @@ var returnRouter = function() {
         })
     });
 
+    //when user sends post to add or remove a pin to their board
     router.post('/', stormpath.getUser, function(req, res) {
         var pinID = req.body.id;
+        // get the id of the user trying to toggle a pin
         getUserID(req.user.href).then(function(response, error) {
-
-            togglePin(pinID, response).then(function(response, error){
-              if(response == "PIN_OWNER"){
-                res.end();
-              } else{
-                res.redirect('back');
-                res.end();
-              }
+            //toggle pin or unpin
+            togglePin(pinID, response).then(function(response, error) {
+                if (response == "PIN_OWNER") {
+                    res.end();
+                } else {
+                    res.redirect('back');
+                    res.end();
+                }
             });
         })
     });
 
+    // get pins
     function getPins() {
         return new Promise(function(resolve, replace) {
-            pins.find({}).limit(50).sort({
+            pins.find({}).limit(75).sort({
                 'creationDate': -1 //sort by creation date
             }).exec(function(err, obj) {
                 if (err) {
@@ -70,6 +74,7 @@ var returnRouter = function() {
 
     function togglePin(pinID, userID) {
         return new Promise(function(resolve, reject) {
+            // find the pin being toggle if the current user has toggled it
             pins.findOne({
                     _id: pinID,
                     pinnedBy: userID
@@ -79,23 +84,21 @@ var returnRouter = function() {
                         console.log(err);
                         reject(err);
                     } else if (docs) {
-                        //remove
-                        console.log(userID);
-                        console.log(docs.pinOwnerID);
+                        // if found, the user has added the pin, and is not the owner
                         if (userID != docs.pinOwnerID) {
-                        console.log("if pull")
-                        pins.findOneAndUpdate({
-                            _id: pinID
-                        }, {
-                            $pull: {
-                                pinnedBy: userID
-                            }
-                        }, function(err) {
-                            if (err) {
-                                console.log(err);
-                            }
-                        });
-
+                            // find that pin and remove(pull) the users pin
+                            pins.findOneAndUpdate({
+                                _id: pinID
+                            }, {
+                                $pull: {
+                                    pinnedBy: userID
+                                }
+                            }, function(err) {
+                                if (err) {
+                                    console.log(err);
+                                }
+                            });
+                            // find the user and remove(pull) the pin
                             users.findOneAndUpdate({
                                 id: userID
                             }, {
@@ -108,13 +111,14 @@ var returnRouter = function() {
                                 }
                             });
                             resolve("REMOVED");
-                        } else {
-                          console.log('resolve else');
-                          resolve("PIN_OWNER");
                         }
-
+                        //otherwise the user is the pin owner so do nothing.
+                        else {
+                            resolve("PIN_OWNER");
+                        }
+                        //otherwise, the user hasn't added the pin, and can't be the owner
                     } else {
-                      console.log("push")
+                        // find the pin and add the users pin/like
                         pins.findOneAndUpdate({
                             _id: pinID
                         }, {
@@ -131,7 +135,7 @@ var returnRouter = function() {
                                 console.log(err);
                             }
                         })
-
+                        // find the user and add the pin to their board
                         users.findOneAndUpdate({
                             id: userID
                         }, {
@@ -150,6 +154,7 @@ var returnRouter = function() {
 
     }
 
+    //get the id of the user logged in
     function getUserID(href) {
         return new Promise(function(resolve, replace) {
             users.findOne({
@@ -167,7 +172,6 @@ var returnRouter = function() {
                 })
         });
     }
-
 
     return router;
 }

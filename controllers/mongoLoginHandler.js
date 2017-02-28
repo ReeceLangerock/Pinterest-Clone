@@ -3,15 +3,14 @@ var express = require('express');
 var app = express();
 module.exports = {
 
-
-    handleLogin: function(account) {        
+    handleLogin: function(account) {
+        // check to see if the current user has been added, if not then create entry
         checkForExistingUser(account.href).then(function(response, error) {
             if (response == 'NOT_FOUND') {
                 users.schema.methods.newUser(account.href, account.givenName);
             }
         })
     }
-
 }
 
 function checkForExistingUser(userHREF) {

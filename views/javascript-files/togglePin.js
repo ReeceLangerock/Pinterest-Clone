@@ -1,4 +1,5 @@
 function togglePin(pinID) {
+    //open up xmlttprequest and send id of pin to toggle to server
     var url = "/"
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function(){
