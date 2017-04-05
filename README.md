@@ -6,6 +6,7 @@ https://pinterest-clone-srl.herokuapp.com/
 - Node/express
 - EJS / CSS
 - MongoDB / Mongoose
+- Stormpath
 
 
 ### App Objective
