@@ -1,6 +1,6 @@
 //SETUP
 var express = require('express');
-var stormpath = require('express-stormpath');
+// var stormpath = require('express-stormpath');
 
 var mongoose = require('mongoose');
 var path = require('path');
@@ -27,29 +27,29 @@ app.use(function(err, req, res, next){
 })
 
 //STORMPATH SETUP
-app.use(stormpath.init(app, {
-  enableFacebook: true,
-  social: {
-    facebook: {
-      appId: process.env.facebookAppId,
-      appSecret: process.env.facebookAppSecret,
-    },
-  },
-  enableGoogle: true,
-  social: {
-    google: {
-      clientId: process.env.googleClientId,
-      clientSecret: process.env.googleClientSecret,
-    },
-  },
-  postLoginHandler: function (account, req, res, next) {
-    // check to see if mongo doc has been made for user
-    mongoLoginHandler.handleLogin(account);
-    next();
-  },
-  website: true
-}));
-app.set('stormpathRedirectUrl', '/');
+// app.use(stormpath.init(app, {
+//   enableFacebook: true,
+//   social: {
+//     facebook: {
+//       appId: process.env.facebookAppId,
+//       appSecret: process.env.facebookAppSecret,
+//     },
+//   },
+//   enableGoogle: true,
+//   social: {
+//     google: {
+//       clientId: process.env.googleClientId,
+//       clientSecret: process.env.googleClientSecret,
+//     },
+//   },
+//   postLoginHandler: function (account, req, res, next) {
+//     // check to see if mongo doc has been made for user
+//     mongoLoginHandler.handleLogin(account);
+//     next();
+//   },
+//   website: true
+// }));
+// app.set('stormpathRedirectUrl', '/');
 
 //ROUTES
 app.use('/', require('./controllers/index')());
@@ -60,8 +60,8 @@ app.use(function (req, res, next) {
 })
 
 //launch
-app.on('stormpath.ready', function(){
+// app.on('stormpath.ready', function(){
 app.listen(port, function(){
   console.log(`Pinterest Clone listening on port ${port}!`);
 });
-})
+// })
