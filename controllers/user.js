@@ -4,7 +4,7 @@ var router = express.Router();
 var returnRouter = function() {
     //router setup
     var request = require('request');
-    var stormpath = require('express-stormpath');
+    // var stormpath = require('express-stormpath');
     var bodyParser = require('body-parser');
     var pins = require('../models/pins.js')
     var users = require('../models/users.js');
@@ -13,7 +13,7 @@ var returnRouter = function() {
     }));
     router.use(bodyParser.json());
 
-    router.get('/:id', stormpath.getUser, function(req, res) {
+    router.get('/:id', function(req, res) {
         //get the pins for the id of the current page
         getPins(req.params.id).then(function(response, error) {
             var pins = response;

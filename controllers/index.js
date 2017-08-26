@@ -4,7 +4,7 @@ var router = express.Router();
 var returnRouter = function() {
     //router setup
     var request = require('request');
-    var stormpath = require('express-stormpath');
+    // var stormpath = require('express-stormpath');
     var bodyParser = require('body-parser');
     var pins = require('../models/pins.js')
     var users = require('../models/users.js')
@@ -13,7 +13,7 @@ var returnRouter = function() {
     }));
     router.use(bodyParser.json());
 
-    router.get('/', stormpath.getUser, function(req, res) {
+    router.get('/', function(req, res) {
         //get 75 most recent pins
         getPins().then(function(response, error) {
             var pins = response;
@@ -41,7 +41,7 @@ var returnRouter = function() {
     });
 
     //when user sends post to add or remove a pin to their board
-    router.post('/', stormpath.getUser, function(req, res) {
+    router.post('/', /*stormpath.getUser,*/ function(req, res) {
         var pinID = req.body.id;
         // get the id of the user trying to toggle a pin
         getUserID(req.user.href).then(function(response, error) {

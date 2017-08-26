@@ -4,7 +4,7 @@ var router = express.Router();
 var returnRouter = function() {
     // router setup
     var request = require('request');
-    var stormpath = require('express-stormpath');
+    // var stormpath = require('express-stormpath');
     var bodyParser = require('body-parser');
     // mongoose models
     var pins = require('../models/pins.js')
@@ -15,7 +15,7 @@ var returnRouter = function() {
     router.use(bodyParser.json());
 
 
-    router.post('/', stormpath.getUser, function(req, res) {
+    router.post('/', function(req, res) {
         // get data from post
         var url = req.body.image_url;
         var title = req.body.image_title;
